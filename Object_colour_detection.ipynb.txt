@@ -1,0 +1,15 @@
+import cv2
+import numpy as np
+from google.colab.patches import cv2_imshow
+from google.colab import files
+
+# Upload image
+print("Upload an image")
+uploaded = files.upload()
+image_path = list(uploaded.keys())[0]
+
+# Read and display original image
+frame = cv2.imread(image_path)
+print("Image loaded successfully")
+print(f"Image size: {frame.shape}")
+cv2_imshow(frame)
