@@ -37,6 +37,17 @@ Input Image → HSV Conversion → Colour Masking → Morphological Cleanup → 
 
 ---
 
+## 📁 Repository Structure
+
+```
+object-colour-detection/
+├── Object_colour_detection.ipynb   # Main notebook
+├── Sample_images/                  # Sample images to test the project
+└── README.md                       # This file
+```
+
+---
+
 ## 🚀 Getting Started
 
 ### Option 1 — Google Colab (Recommended)
@@ -44,7 +55,7 @@ Input Image → HSV Conversion → Colour Masking → Morphological Cleanup → 
 1. Open the notebook in [Google Colab](https://colab.research.google.com/)
 2. Upload `Object_colour_detection.ipynb`
 3. Run all cells
-4. When prompted, upload any image from your machine
+4. When prompted, upload any image from your machine (you can use images from the `Sample_images` folder)
 5. View the annotated output and colour coverage stats
 
 ### Option 2 — Local Setup
@@ -76,16 +87,6 @@ cv2.destroyAllWindows()
 
 ---
 
-## 📁 Repository Structure
-
-```
-object-colour-detection/
-├── Object_colour_detection.ipynb   # Main notebook
-└── README.md                       # This file
-```
-
----
-
 ## 📊 Sample Output
 
 For an image containing coloured objects, the system outputs:
@@ -101,6 +102,8 @@ Green: 6.8%
 
 **Annotated Image:**  
 Each detected region is boxed with a coloured rectangle and a label showing the colour name and its percentage coverage of the total image area.
+
+> 💡 Sample images to test the project are available in the `Sample_images/` folder.
 
 ---
 
@@ -141,12 +144,14 @@ Raw HSV masking on real images produces hundreds of tiny noise blobs (from JPEG 
 
 ## 📚 Course
 
-**Computer Vision** — Bring Your Own Project (BYOP) Capstone  
+**Computer Vision (CSE3010)** — Bring Your Own Project (BYOP) Capstone  
+Faculty: Rajneesh Kumar Patel | Slot: D11+D12  
 Deadline: March 31, 2026
 
 ---
 
 ## 👤 Author
 
-**Aman**  
+**Aman Prakash**  
+Registration No: 23BAI10378  
 B.Tech Computer Science (AI/ML Specialisation), VIT Bhopal
